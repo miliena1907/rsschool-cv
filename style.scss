@@ -1,0 +1,19 @@
+@import "zerostyle.scss";
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Tamil:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+body{
+   font-family:'Catamaran', sans-serif ;
+   font-size: 24px;
+}
+a{
+   color: black;
+}
+h1,h3{
+   font-family:'Tiro Tamil', serif;
+   font-weight: 400;
+   font-style: italic;
+   font-size: 36px;
+}
+h1{
+   font-size: 48px;
+}
