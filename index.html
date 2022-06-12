@@ -10,82 +10,98 @@
 </head>
 
 <body>
-   <article>
-      <section>
-         <nav>
-            <ul>
-               <li><a href="#about">About</a></li>
-               <li><a href="#code">Code</a></li>
-               <li><a href="#skills">Skills</a></li>
-               <li><a href="#contacts">Contacts</a></li>
-               <li><a href="#projects">Projects</a></li>
-            </ul>
-         </nav>
-      </section>
-   </article>
-   <article>
-      <h1>Miliena Korolova</h1>
-      <h3>Front-End Developer</h3>
-   </article>
-   <article id="about">
-      <h3>About Me</h3>
-      <section>I am a beginner front-end developer at the learning stage.
-         I had no experience in this area yet, but I set myself the goal of changing
-         the scope of professional activity. I am a purposeful person who is not afraid of difficulties.
-         I like the exact sciences and I am a fast learner,
-         this should help me in mastering new knowledge in this direction.</section>
-      <h3>Education</h3>
-      <section>
-         <ul>
-            <li>Kharkiv Polytechnic Institute,Materials Science</li>
-            <li><a href="https://rs.school/js-stage0/"> RS Schools «JavaScript/Front-end. Stage 0»</a></li>
-         </ul>
-      </section>
-   </article>
-   </article>
-   <article id="code">
-      <h3>Code</h3>
-      <section></section>
-   </article>
-   <article id="projects">
-      <h3>Projects</h3>
-      <section></section>
-   </article>
-   <aside>
-      <section>
-         <img src="/img/me.jpg.jpg" alt="Me">
-      </section>
-      <h3 id="contacts">Contacts</h3>
-      <section>
-         <ul>
-            <li>+33782664280
-            </li>
-            <li>milenochkakoroliova@gmail.com</li>
-            <li>@milienakorolova</li>
+   <div class="wrapper">
+      <header class="header">
+         <div class="column__header">
+            <img class="img" src="/img/me.jpg.jpg" alt="Me">
+         </div>
+         <div class="column">
+            <nav>
+               <ul class="nav">
+                  <li class="nav__li"><a href="#about">About</a></li>
+                  <li class="nav__li"><a href="#code">Code</a></li>
+                  <li class="nav__li"><a href="#skills">Skills</a></li>
+                  <li class="nav__li"><a href="#contacts">Contacts</a></li>
+                  <li class="nav__li"><a href="#projects">Projects</a></li>
+               </ul>
+            </nav>
 
-         </ul>
-      </section>
-      <h3 id="skills">Skills</h3>
-      <section>
-         <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>SASS</li>
-            <li>GitHub</li>
-            <li>Adobe Photoshop</li>
-            <li>VS Code</li>
-         </ul>
-      </section>
-      <h3>Languages</h3>
-      <section>
-         <ul>
-            <li>English<br>upper beginner</li>
-            <li>Ukrainian<br>native</li>
-            <li>Russian<br>intermediate</li>
-         </ul>
-      </section>
-   </aside>
+            <h1 class="column__name">Miliena Korolova</h1>
+            <h3 class="column__name">Front-End Developer</h3>
 
+         </div>
+
+      </header>
+      <main>
+         <div class="main">
+            <article id="about">
+               <h3>About Me</h3>
+               <section>I am a beginner front-end developer at the learning stage.
+                  I had no experience in this area yet, but I set myself the goal of changing
+                  the scope of professional activity. I am a purposeful person who is not afraid of difficulties.
+                  I like the exact sciences and I am a fast learner,
+                  this should help me in mastering new knowledge in this direction.</section>
+               <h3>Education</h3>
+               <section class="education">
+                  <ul>
+                     <li>Kharkiv Polytechnic Institute,Materials Science</li>
+                     <li><a href="https://rs.school/js-stage0/"> RS Schools «JavaScript/Front-end. Stage 0»</a></li>
+                  </ul>
+               </section>
+            </article>
+            </article>
+            <article id="code">
+               <h3>Code</h3>
+               <section></section>
+            </article>
+            <article id="projects">
+               <h3>Projects</h3>
+               <section></section>
+            </article>
+         </div>
+         <div class="aside">
+            <aside>
+               <h3 id="contacts">Contacts</h3>
+               <section>
+                  <ul class="contacts">
+                     <li class="github"><a href="https://github.com/miliena1907"> https://github.com/miliena1907</a>
+                     </li>
+                     <li class="phone"> <a href="tel:+33782664280">+33782664280</a>
+                     </li>
+                     <li class="email">
+                        <a href="mailto:milenochkakoroliova@gmail.com"> milenochkakoroliova@gmail.com</a>
+                     </li>
+                     <li class="telegram"><a href="https://telegram.im/@milienakorolova">@milienakorolova</a></li>
+
+                  </ul>
+               </section>
+               <h3 id="skills">Skills</h3>
+               <section class="skills">
+                  <ul>
+                     <li>HTML</li>
+                     <li>CSS</li>
+                     <li>SASS</li>
+                     <li>GitHub</li>
+                     <li>Adobe Photoshop</li>
+                     <li>VS Code</li>
+                  </ul>
+               </section>
+               <h3>Languages</h3>
+               <section class="languages">
+                  <ul>
+                     <li>English - Upper Beginner</li>
+                     <li>Ukrainian - Native</li>
+                     <li>Russian - Intermediate</li>
+                  </ul>
+               </section>
+            </aside>
+         </div>
+      </main>
+   </div>
+   <footer>
+      <a href="https://github.com/miliena1907"><img src="img/github.png" alt="github" style="width:30px;"></a>
+      <a href="https://rs.school/js/"><img src="img/rs school.png" alt="rs school" style="width:60px;height: 30px;"></a>
+   </footer>
 </body>
 
 </html>

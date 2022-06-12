@@ -1,9 +1,17 @@
 @import "zerostyle.scss";
 @import url('https://fonts.googleapis.com/css2?family=Tiro+Tamil:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+
 body{
    font-family:'Catamaran', sans-serif ;
    font-size: 24px;
+   width:100%;
+}
+.wrapper{
+   max-width: 1200px;
+   margin-left: auto;
+   margin-right: auto;
+   background-color: rgb(246, 246, 231);
 }
 a{
    color: black;
@@ -13,7 +21,121 @@ h1,h3{
    font-weight: 400;
    font-style: italic;
    font-size: 36px;
+   text-align: center;
+   padding-top: 10px;
 }
 h1{
    font-size: 48px;
+}
+
+.nav__li{
+   letter-spacing: 2px;
+   word-spacing: 2px;
+   padding:40px 0px 70px 50px; 
+   
+}
+a:hover{
+   text-decoration: underline;
+   color: rgba(162, 33, 162, 0.767);
+}
+
+.header{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: stretch;
+   .column__header{text-align: center;
+      padding-top: 10px;
+      flex-basis: 40%;
+   }
+   .column{background-color: rgba(243, 227, 242, 0.304);
+      flex-basis: 60%;
+   }
+}
+.nav{
+   display: flex;
+   flex-direction: row;
+}
+main{display: flex;
+   flex: 1 1 auto;
+   
+   .main{background-color: rgba(243, 227, 242, 0.304);
+      order:2;
+      flex-basis: 60%;
+   }
+   .aside{
+      order:1;
+      flex-basis: 40%;
+   }
+}
+.aside{padding-top: 30px;
+   padding-left: 20px;
+   li{
+      padding-top: 10px;
+   }
+
+}
+.img{ width: 300px;
+   border-radius: 50%;
+  
+}
+.github::before{
+   content: '';
+   background:url('/img/github.png') 5px 8px/20px 20px no-repeat;
+padding-left: 35px;
+}
+.phone::before{
+   content: '';
+   background:url('/img/phone.jpg') 5px 8px/20px 20px no-repeat;
+   padding-left: 35px;
+}
+.email::before{
+   content: '';
+   background: url('/img/email.png')5px 8px/20px 20px no-repeat;
+   padding-left: 35px;
+}
+.telegram::before{
+   content: '';
+   background: url('/img/telegram.png')5px 8px/20px 20px no-repeat;
+   padding-left: 35px;
+}
+.skills{letter-spacing: 1px;
+   padding-top: 5px;
+   li:before{
+      content: '▷';
+      color: violet;
+   }
+   li{
+      padding-top: 10px;
+   }
+}
+.languages{letter-spacing: 1px;
+   padding-top: 5px;
+   li:before{
+      content: '▷';
+      color: violet;
+   }
+   li{
+      padding-top: 10px;
+   }
+}
+.main{padding-top: 30px;
+   line-height: 40px;
+text-align: justify;
+}
+.education{
+   li:before{
+      content: '▷';
+      color: violet;
+   }
+}
+footer{
+   background-color: rgba(227, 223, 223, 0.657);
+   text-align: center;
+   line-height: 30px;
+   
+   a{
+   padding-left: 30px;
+   padding-right: 30px;
+}
 }
