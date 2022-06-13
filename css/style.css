@@ -212,25 +212,25 @@ main .aside {
 
 .github::before {
   content: '';
-  background: url("/img/github.png") 5px 8px/20px 20px no-repeat;
+  background: url("img/github.png") 5px 8px/20px 20px no-repeat;
   padding-left: 35px;
 }
 
 .phone::before {
   content: '';
-  background: url("/img/phone.jpg") 5px 8px/20px 20px no-repeat;
+  background: url("img/phone.jpg") 5px 8px/20px 20px no-repeat;
   padding-left: 35px;
 }
 
 .email::before {
   content: '';
-  background: url("/img/email.png") 5px 8px/20px 20px no-repeat;
+  background: url("img/email.png") 5px 8px/20px 20px no-repeat;
   padding-left: 35px;
 }
 
 .telegram::before {
   content: '';
-  background: url("/img/telegram.png") 5px 8px/20px 20px no-repeat;
+  background: url("img/telegram.png") 5px 8px/20px 20px no-repeat;
   padding-left: 35px;
 }
 
