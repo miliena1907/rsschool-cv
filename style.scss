@@ -6,6 +6,8 @@ body{
    font-family:'Catamaran', sans-serif ;
    font-size: 24px;
    width:100%;
+   margin: auto;
+   white-space: wrap;
 }
 .wrapper{
    max-width: 1200px;
@@ -16,7 +18,7 @@ body{
 a{
    color: black;
 }
-h1,h3{
+h1,h2{
    font-family:'Tiro Tamil', serif;
    font-weight: 400;
    font-style: italic;
@@ -129,13 +131,28 @@ text-align: justify;
       color: violet;
    }
 }
-footer{
-   background-color: rgba(227, 223, 223, 0.657);
-   text-align: center;
-   line-height: 30px;
-   
-   a{
-   padding-left: 30px;
-   padding-right: 30px;
+footer{font-size: 24px;
+   background-color: rgba(193, 163, 163, 0.315);
+  display: flex;
+   align-items: center;
+   height: 60px;
+   justify-content: space-evenly;
+   a.text{
+      padding-top: 20px;
+   }
+  
 }
+
+.code{padding-left: 10px;
+   background-color: rgb(45, 41, 41);
+   border: 3px solid rgb(24, 20, 20);
+   box-shadow: 2px 1px 3px 1px rgba(24, 20, 20, 0.356);
+   color: rgb(236, 178, 6);
+   .violet{
+      color: rgb(207, 100, 207);
+   }
+   .blue{
+      color: rgb(33, 147, 208);
+   }
+   
 }
