@@ -1,0 +1,158 @@
+@import "zerostyle.scss";
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Tamil:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+
+body{
+   font-family:'Catamaran', sans-serif ;
+   font-size: 24px;
+   width:100%;
+   margin: auto;
+   white-space: wrap;
+}
+.wrapper{
+   max-width: 1200px;
+   margin-left: auto;
+   margin-right: auto;
+   background-color: rgb(246, 246, 231);
+}
+a{
+   color: black;
+}
+h1,h2{
+   font-family:'Tiro Tamil', serif;
+   font-weight: 400;
+   font-style: italic;
+   font-size: 36px;
+   text-align: center;
+   padding-top: 10px;
+}
+h1{
+   font-size: 48px;
+}
+
+.nav__li{
+   letter-spacing: 2px;
+   word-spacing: 2px;
+   padding:40px 0px 70px 50px; 
+   
+}
+a:hover{
+   text-decoration: underline;
+   color: rgba(162, 33, 162, 0.767);
+}
+
+.header{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: stretch;
+   .column__header{text-align: center;
+      padding-top: 10px;
+      flex-basis: 40%;
+   }
+   .column{background-color: rgba(243, 227, 242, 0.304);
+      flex-basis: 60%;
+   }
+}
+.nav{
+   display: flex;
+   flex-direction: row;
+}
+main{display: flex;
+   flex: 1 1 auto;
+   
+   .main{background-color: rgba(243, 227, 242, 0.304);
+      order:2;
+      flex-basis: 60%;
+   }
+   .aside{
+      order:1;
+      flex-basis: 40%;
+   }
+}
+.aside{padding-top: 30px;
+   padding-left: 20px;
+   li{
+      padding-top: 10px;
+   }
+
+}
+.img{ width: 300px;
+   border-radius: 50%;
+  
+}
+.github::before{
+   content: '';
+   background:url('/img/github.png') 5px 8px/20px 20px no-repeat;
+padding-left: 35px;
+}
+.phone::before{
+   content: '';
+   background:url('/img/phone.jpg') 5px 8px/20px 20px no-repeat;
+   padding-left: 35px;
+}
+.email::before{
+   content: '';
+   background: url('/img/email.png')5px 8px/20px 20px no-repeat;
+   padding-left: 35px;
+}
+.telegram::before{
+   content: '';
+   background: url('/img/telegram.png')5px 8px/20px 20px no-repeat;
+   padding-left: 35px;
+}
+.skills{letter-spacing: 1px;
+   padding-top: 5px;
+   li:before{
+      content: '▷';
+      color: violet;
+   }
+   li{
+      padding-top: 10px;
+   }
+}
+.languages{letter-spacing: 1px;
+   padding-top: 5px;
+   li:before{
+      content: '▷';
+      color: violet;
+   }
+   li{
+      padding-top: 10px;
+   }
+}
+.main{padding-top: 30px;
+   line-height: 40px;
+text-align: justify;
+}
+.education{
+   li:before{
+      content: '▷';
+      color: violet;
+   }
+}
+footer{font-size: 24px;
+   background-color: rgba(193, 163, 163, 0.315);
+  display: flex;
+   align-items: center;
+   height: 60px;
+   justify-content: space-evenly;
+   a.text{
+      padding-top: 20px;
+   }
+  
+}
+
+.code{padding-left: 10px;
+   background-color: rgb(45, 41, 41);
+   border: 3px solid rgb(24, 20, 20);
+   box-shadow: 2px 1px 3px 1px rgba(24, 20, 20, 0.356);
+   color: rgb(236, 178, 6);
+   .violet{
+      color: rgb(207, 100, 207);
+   }
+   .blue{
+      color: rgb(33, 147, 208);
+   }
+   
+}
